@@ -1,30 +1,39 @@
-# React + TypeScript + Vite
+# Tic-tac-toe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple Tic-tac-toe game built with React and TypeScript.
 
-Currently, two official plugins are available:
+## Technologies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   **React**: A JavaScript library for building user interfaces.
+-   **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
+-   **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+-   **Vite**: A fast build tool and development server.
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/Amit-10101/Tic-Tac-Toe.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd tic-tac-toe
+    ```
+3. Install the dependencies:
+    ```sh
+    npm install
+    ```
 
-- Configure the top-level `parserOptions` property like this:
+## Usage
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+To start the development server, run:
+
+```sh
+npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Open your browser and navigate to http://localhost:5173 to see the application.
+
+## Contributing
+
+Contributions are always welcome! Please ensure that your PR is up-to-date with the latest changes in the `main` branch.
